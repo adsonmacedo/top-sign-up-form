@@ -133,10 +133,10 @@ showPwdBtns.forEach((btn) => {
     button.classList.toggle("show");
 
     if (button.classList.contains("show")) {
-      eyeImg.src = "./images/eye.svg";
+      eyeImg.src = "./images/eye-off.svg";
       input.type = "text";
     } else {
-      eyeImg.src = "./images/eye-off.svg";
+      eyeImg.src = "./images/eye.svg";
       input.type = "password";
     }
   });
